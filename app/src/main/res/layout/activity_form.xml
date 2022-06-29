@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".view.FormActivity"
+        android:layout_gravity="center">
+
+        <TextView
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/explanation_form" />
+
+        <Spinner
+            android:entries="@array/form_roles"
+            android:id="@+id/sp_role"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent" />
+
+        <Spinner
+            android:entries="@array/form_vd"
+            android:id="@+id/sp_vd"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent" />
+
+        <EditText
+            android:hint="@string/sr_hint"
+            android:id="@+id/et_sr"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:text="@string/save"
+            android:background="#F3661C"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="form_roles">
+        <item>DPS</item>
+        <item>Tank</item>
+        <item>Sup</item>
+    </string-array>
+
+    <string-array name="form_vd">
+        <item>Vitória</item>
+        <item>Derrota</item>
+        <item>Empate</item>
+    </string-array>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Rumo ao Top 500</string>
+    <string name="sr_hint">Digite aqui seu SR após a partida</string>
+    <string name="save">Salvar</string>
+    <string name="explanation_form">Registre aqui os dados da sua última partida para atualizar seu histórico</string>
+    <string name="dps">DPS</string>
+    <string name="tank">Tank</string>
+    <string name="sup">Sup</string>
+    <string name="invalid_sr">SR inválido</string>
+    <string name="error_icon_response">Erro de iconResponse</string>
+    <string name="victory">Vitória</string>
+    <string name="defeat">Derrota</string>
+    <string name="draw">Empate</string>
+    <string name="blank">\" \"</string>
+    <string name="error_title_response">Erro titleResponse</string>
+    <string name="earned_points_message">Pontos ganhos: %1$d</string>
+    <string name="lost_points_message">Pontos perdidos: %1$d</string>
+    <string name="draw_message">Não houve ganho ou perda de pontos</string>
+    <string name="error_message_response">Erro messageResponse</string>
+    <string name="register_saved">Registro salvo com sucesso!</string>
+
+    //VictoryValidate
+    <string name="last_sr_message">Último SR: %1$d</string>
+    <string name="sr_writed_message">SR digitado: %1$d</string>
+    <string name="invalid_data">Dados incorretos</string>
+</resources>
